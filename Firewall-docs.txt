@@ -1,0 +1,56 @@
+#####  Firewall ###
+
+
+1) It acts like a ACL.
+
+2)it protect inside the network from outside unauthorizded network.
+
+3) firewall can do packet level filtering which is similar to ACL.
+
+4)Nowdays firewall is stateful inspection.
+
+
+
+##### basically three zones of Firewall ####
+
+1) DMZ.
+2) Inside Zone.
+3) OutSide Zone.
+
+
+
+***UTM => Unified threat Management ***** can filter packets base on Layer3 , layer4 as wellas application
+layer data such as payload.
+
+**) Attackers can use  tools for scanning the ports (nmap,zenmap)
+
+
+
+
+****** PORT ***
+DNS - TCP/UDP:53   => Domain to 
+
+** Attcakers can try with some well known ports to get reply from firewall 
+
+1) SNMP  - TCP:161
+2)HTTPS - TCP:443
+3)HTTP -  TCP:80
+4)Telnet - TCP:23
+5)SSH - TCP-22
+6)FTP - TCP:21,20
+7)DNS - TCP/UDP:53
+8)SMB - TCP:445
+
+
+
+***** Attackers can also use other techniques such as 
+
+*) IP spoofing.
+*) Source Routing.
+*) Tiny Fragments
+*) URL filter skip by IP Address
+*) Proxy servers
+*) Tunnelling protocols.
+
+
+Note : TO secure our networks we must use a firewall which runs SSL Decryption and Application Layer inspection.
